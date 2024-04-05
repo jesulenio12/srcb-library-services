@@ -1,0 +1,24 @@
+.admincard2{
+    padding: 20px;
+    margin: -60px 0px 0px 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(57, 43, 43, 0.239);
+    border-radius:10px;
+    padding: 25px 15px 25px 15px;
+}
+
+.admincardbox2{
+    width: 350px;
+    height: 200px;
+    background: white;
+    margin: 0px 10px;
+    transition: 1s;
+
+}
+.admincardbox2:hover{
+    transform: scale(1.4);
+    z-index: 2;
+    box-shadow: 2px 2px 2px #000;
+}

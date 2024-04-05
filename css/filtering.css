@@ -1,0 +1,45 @@
+.date-picker {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.dropdown-filter {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.input-group {
+  display: flex;
+  align-items: flex-start;
+}
+
+.input-box {
+	min-height: 30px;
+	max-width: 150px;
+	padding: 0 1rem;
+	color: #484747;
+	font-size: 12px;
+	font-weight: 800;
+	border: 2px solid #163269;
+	border-radius: 0 6px 6px 0;
+	background-color: transparent;
+}
+
+.input-label {
+	min-height: 30px;
+    padding: 6px 1rem;
+    border: none;
+    border-radius: 6px 0 0 6px;
+    background-color: #163269;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+}
+
+.input-box:focus, .input-box:focus-visible {
+  border-color: #3898EC;
+  outline: none;
+}

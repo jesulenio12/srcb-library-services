@@ -1,0 +1,1048 @@
+.btn2{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bolder;
+    background: #3db166;
+    width: 3%;
+    height:35px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn2:hover, .btn2:focus, .btn2:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+} 
+
+
+/* total data */
+.conpost {
+    margin-top:40px;
+}
+.container{
+    width: 90%;
+    height: 10px;
+    padding: 20px;
+    margin: -50px 0px 0px 100px auto;
+    background: #3db166;
+    border-radius: 30px;
+    display: flex;
+    position:inherit;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.data{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #163269;
+    border: 7px solid #3db166;
+    color:white;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 50px;
+    margin-top:-75px;
+    transition: 1s;
+
+}
+.data:hover{
+    transform: scale(1.3);
+    z-index: 2;
+    box-shadow: 2px 2px 2px #000;
+    
+}
+
+.content {
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+
+/* dashboard card */
+.bookinfo{
+    padding: 20px;
+    margin: -60px 0px 0px 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.totalcal{
+    width: 480px;
+    height: 288px;
+    background: #fff;
+    color: #3db166;
+    margin: 0px 10px;
+    transition: 1s;
+
+}
+.totalcal:hover{
+    transform: scale(1.5);
+    z-index: 2;
+    box-shadow: 2px 2px 2px #000;
+}
+
+/* dashboard card hover */
+.card{
+    padding: 20px;
+    margin: -60px 0px 0px 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cardbox{
+    width: 480px;
+    height: 288px;
+    background: white;
+    margin: 0px 10px;
+    transition: 1s;
+
+}
+.cardbox:hover{
+    transform: scale(1.5);
+    z-index: 2;
+    box-shadow: 2px 2px 2px #000;
+}
+
+/* Content Header (Page header) */
+.btn{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: #fff;
+    width:25%;
+    height:40px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3db166;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn:hover, .btn:focus, .btn:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}  
+
+
+/* manage books button */
+.btn-mb{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: #fff;
+    width:15%;
+    border: none;
+    height:40px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3db166;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn-mb:hover, .btn-mb:focus, .btn-mb:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}  
+
+/* Add - Upload */
+.btn2-1{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bolder;
+    background: #fff;
+    width: 10%;
+    height:35px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3db166;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn2-1:hover, .btn2-1:focus, .btn2-1:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+} 
+
+/* Datatable Button (Fines) */
+.btn3{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    background: #3db166;
+    width: 100%;
+    height:30px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn3:hover, .btn3:focus, .btn3:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+} 
+
+/* Datatable Button (Online Request Borrow) */
+/* approve button */
+.btn4{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    background: #3db166;
+    width: 20%;
+    height:30px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn4:hover, .btn4:focus, .btn4:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* delete button */
+.btn5{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    background: #f31912;
+    width: 20%;
+    height:30px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn5:hover, .btn5:focus, .btn5:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* Datatable Button (Online Request Return) */
+/* approve button */
+.btn6{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    background: #3db166;
+    width: 30%;
+    height:30px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn6:hover, .btn6:focus, .btn6:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* delete button */
+.btn7{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    background: #3db166;
+    width: 45%;
+    height:30px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn7:hover, .btn7:focus, .btn7:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* qr code button */
+.btnreq{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    background: #3db166;
+    width: 100%;
+    height:30px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btnreq:hover, .btnreq:focus, .btnreq:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.btncanreq{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    background: #3db166;
+    width: 100%;
+    height:30px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btncanreq:hover, .btncanreq:focus, .btncanreq:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.btn8{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    background: #3db166;
+    width: 45%;
+    height:30px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn8:hover, .btn8:focus, .btn8:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.btn15{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    background: #3db166;
+    width: 80%;
+    height:30px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn15:hover, .btn15:focus, .btn15:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* catalog admin */
+.catalog{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    background: #3db166;
+    width: 100%;
+    height:30px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.catalog:hover, .catalog:focus, .catalog:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* update button */
+.btn9{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    background: #3db166;
+    width: 45%;
+    height:30px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn9:hover, .btn9:focus, .btn9:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* update button */
+.btnacc{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    background: #3db166;
+    width: 100%;
+    height:30px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btnacc:hover, .btnacc:focus, .btnacc:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.btnlo{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    background: #fff;
+    width: 100%;
+    height:30px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3db166;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btnlo:hover, .btnlo:focus, .btnlo:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* btn link */
+.btn-link{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    background: #3db166;
+    width: 98%;
+    height:50px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn-link:hover, .btn-link:focus, .btn-link:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    border: none;
+}
+
+.btn-link2{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    background: #3db166;
+    width: 100%;
+    height:50px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn-link2:hover, .btn-link2:focus, .btn-link2:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    border: none;
+}
+
+.btn-i{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    background: #3db166;
+    width: 100%;
+    height:50px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn-i:hover, .btn-i:focus, .btn-i:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    border: none;
+}
+
+.btn-a{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    background: #fff;
+    width: 100%;
+    height:50px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3db166;
+    border-radius:10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn-a:hover, .btn-a:focus, .btn-a:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    border: none;
+}
+
+/* qr code button */
+.bookbtn1{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    background: #3db166;
+    width: 15%;
+    height:30px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff; 
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.bookbtn1:hover, .bookbtn1:focus, .bookbtn1:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* book card button */
+.bookbtn2{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    background: #3db166;
+    width: 55%;
+    height:30px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.bookbtn2:hover, .bookbtn2:focus, .bookbtn2:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* update button */
+.bookbtn3{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    background: #128ef3;
+    width: 15%;
+    height:30px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.bookbtn3:hover, .bookbtn3:focus, .bookbtn3:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* ban button */
+.bookbtn4{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    background: #f31912;
+    width: 15%;
+    height:30px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.bookbtn4:hover, .bookbtn4:focus, .bookbtn4:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* lost book button */
+.bookbtn5{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    background: #e9983d;
+    width: 15%;
+    height:30px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.bookbtn5:hover, .bookbtn5:focus, .bookbtn5:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* discard book buttons */
+/* book card book button */
+.btnd-1{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    background: #3db166;
+    width: 20%;
+    height:30px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btnd-1:hover, .btnd-1:focus, .btnd-1:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* update dicard button */
+.btnd-2{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    background: #08518d;
+    width: 20%;
+    height:30px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btnd-2:hover, .btnd-2:focus, .btnd-2:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* restore dicard button */
+.btnd-3{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    background: #3f8d08;
+    width: 20%;
+    height:30px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btnd-3:hover, .btnd-3:focus, .btnd-3:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* delete dicard button */
+.btnd-4{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    background: #f31912;
+    width: 20%;
+    height:30px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btnd-4:hover, .btnd-4:focus, .btnd-4:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* edit ID */
+.edtID{
+    font-family: sans-serif;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+    background: #3db166;
+    width: 30%;
+    height:50px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.edtID:hover, .edtID:focus, .edtID:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* submit */
+.btnupdate{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    background: #3db166;
+    width: 100%;
+    height:50px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btnupdate:hover, .btnupdate:focus, .btnupdate:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* cancel */
+.btncancel{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    background: #fff;
+    width: 100%;
+    height:50px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3db166;
+    border-radius:10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btncancel:hover, .btncancel:focus, .btncancel:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.hola {
+    padding: 0px;
+}

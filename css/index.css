@@ -1,0 +1,398 @@
+header .carousel-inner .item {
+    height: 100vh;
+}
+
+.navbar {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-inverse {
+    background-color: white;
+    height: 80px;
+    border-color: transparent;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    font-size: 40px;
+    padding: 40px 15px;
+    font-weight: 900;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #9d9d9d;
+    margin-top: -10px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.nav.navbar-nav.navbar-right {
+    margin: 25px 0;
+}
+
+.navbar-brand>img {
+    display: block;
+    height: 60px;
+    margin-top: -35px;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.btn{
+    cursor: pointer;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.btn:hover, .btn:focus, .btn:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}  
+
+.banner {
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.carousel-caption {
+	margin-top: -120px;
+    font-family: poppins;
+}
+
+.text-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.carousel-caption h1 {
+	font-size: 52px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.carousel-caption h2 {
+	color: #163269;
+	text-transform: uppercase;
+    font-family: 'Bungee', cursive;
+}
+
+.carousel-caption a {
+    background: #3db166;
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.carousel-control.right {
+	background-image: none;
+}
+
+.carousel-control.left {
+	background-image: none;
+}
+
+.carousel-indicators .active {
+	background-color: #3db166;
+	border-color: #3db166;
+}
+
+.carousel-indicators {
+    bottom: 50px;
+}
+
+.bounceInLeft {
+    font-size: 25px;
+    margin-top: -2px;
+}
+
+.copyright {
+    background-color: #163269;
+    height: 50px;
+    color: white;
+    font-size: 12px;
+	padding: 16px 0 0 0;
+    text-align: center;
+    margin-top: -50px;
+    position: relative
+}
+
+@media screen and (max-width: 912px){
+
+    .carousel-caption {
+        font-family: poppins;
+    }
+
+    .carousel-caption h2 {
+        color: #163269;
+        text-transform: uppercase;
+        font-family: 'Bungee', cursive;
+    }
+
+    .carousel-caption a {
+        background: #3db166;
+        display: inline-block;
+        margin-top: 15px;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    .bounceInLeft, .fadeInLeft, .fadeInUp {
+        margin-top: -2px;
+    }
+
+	.navbar-inverse .navbar-brand {
+		color: #fff;
+		font-size: 40px;
+		padding: 40px 80px 30px 0px;
+		font-weight: 900;
+	}
+
+	.navbar-toggle {
+		position: relative;
+		float: right;
+		padding: 9px 10px;
+		margin-top: 17px;
+		margin-right: 3px;
+		background-color: transparent;
+		background-image: none;
+		border: 1px solid transparent;
+		border-radius: 4px;
+	}
+
+	.navbar-collapse {
+		background-color: #ffffffba;
+    	border-radius: 0 0 10px 10px;
+	}
+
+	.copyright {
+		background-color: #163269;
+		height: 76px;
+		color: white;
+		font-size: 12px;
+		padding: 12px 8px 0px 8px;
+		text-align: center;
+		margin-top: auto;
+		position: relative;
+	}
+}
+
+/* Galaxy Fold */
+@media screen and (max-width: 280px) and (max-height: 653px){
+
+    .carousel-caption {
+        font-family: poppins;
+    }
+
+    .carousel-caption h2 {
+        color: #163269;
+        text-transform: uppercase;
+        font-family: 'Bungee', cursive;
+    }
+
+    .carousel-caption a {
+        background: #3db166;
+        display: inline-block;
+        margin-top: 15px;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    .bounceInLeft, .fadeInLeft, .fadeInUp {
+        margin-top: -2px;
+    }
+
+	.navbar-brand>img {
+		height: 45px;
+	}
+
+	.navbar-inverse .navbar-brand {
+		color: #fff;
+		font-size: 40px;
+		padding: 40px 80px 30px 0px;
+		font-weight: 900;
+		margin-top: -52px;
+	}
+
+	.copyright {
+		background-color: #163269;
+		height: 106px;
+		color: white;
+		font-size: 12px;
+		padding: 6px 8px 0px 8px;
+		text-align: center;
+		margin-top: auto;
+		position: relative;
+	}
+}
+
+/* Ipad Air */
+@media screen and (max-width: 820px) and (max-height: 1180px){
+
+    .carousel-caption {
+        font-family: poppins;
+    }
+
+    .carousel-caption h2 {
+        color: #163269;
+        text-transform: uppercase;
+        font-family: 'Bungee', cursive;
+    }
+
+    .carousel-caption a {
+        background: #3db166;
+        display: inline-block;
+        margin-top: 15px;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    .bounceInLeft, .fadeInLeft, .fadeInUp {
+        margin-top: -2px;
+    }
+
+	.copyright {
+		background-color: #163269;
+		height: 76px;
+		color: white;
+		font-size: 12px;
+		padding: 21px 8px 0px 8px;
+		text-align: center;
+		margin-top: auto;
+		position: relative;
+	}
+}
+
+/* Surface Pro 7 */
+@media screen and (max-width: 912px) and (max-height: 1368px){
+
+    .carousel-caption {
+        font-family: poppins;
+    }
+
+    .carousel-caption h2 {
+        color: #163269;
+        text-transform: uppercase;
+        font-family: 'Bungee', cursive;
+    }
+
+    .carousel-caption a {
+        background: #3db166;
+        display: inline-block;
+        margin-top: 15px;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    .bounceInLeft, .fadeInLeft, .fadeInUp {
+        margin-top: -2px;
+    }
+
+	.copyright {
+		background-color: #163269;
+		height: 76px;
+		color: white;
+		font-size: 12px;
+		padding: 21px 8px 0px 8px;
+		text-align: center;
+		margin-top: auto;
+		position: relative;
+	}
+}
+
+/* Surface Dou */
+@media screen and (max-width: 540px) and (max-height: 720px){
+
+    .carousel-caption {
+        font-family: poppins;
+    }
+
+    .carousel-caption h2 {
+        color: #163269;
+        text-transform: uppercase;
+        font-family: 'Bungee', cursive;
+    }
+
+    .carousel-caption a {
+        background: #3db166;
+        display: inline-block;
+        margin-top: 15px;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    .bounceInLeft, .fadeInLeft, .fadeInUp {
+        margin-top: -2px;
+    }
+
+    .copyright {
+        background-color: #163269;
+        height: 76px;
+        color: white;
+        font-size: 12px;
+        padding: 21px 8px 0px 8px;
+        text-align: center;
+        margin-top: auto;
+        position: relative;
+    }
+}
+
+/* Samsung Galaxy A51/71 */
+@media screen and (max-width: 412px) and (max-height: 914px){
+
+    .carousel-caption {
+        font-family: poppins;
+    }
+
+    .carousel-caption h2 {
+        color: #163269;
+        text-transform: uppercase;
+        font-family: 'Bungee', cursive;
+    }
+
+    .carousel-caption a {
+        background: #3db166;
+        display: inline-block;
+        margin-top: 15px;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    .bounceInLeft, .fadeInLeft, .fadeInUp {
+        margin-top: -2px;
+    }
+
+	.copyright {
+		background-color: #163269;
+		height: 76px;
+		color: white;
+		font-size: 12px;
+		padding: 12px 8px 0px 8px;
+		text-align: center;
+		margin-top: auto;
+		position: relative;
+	}
+}

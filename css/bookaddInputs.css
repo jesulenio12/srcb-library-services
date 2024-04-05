@@ -1,0 +1,70 @@
+.modal-content {
+    border-radius: 30px;
+}
+
+.row {
+    margin-top: 10px;
+}
+
+.add-input-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+/* max-width: 290px; */
+}
+
+.add-input-container > span,
+.add-input-container .add-input {
+    white-space: nowrap;
+    display: block;
+}
+
+.add-input-container > span,
+.add-input-container .add-input {
+    border-radius: 0 6px 6px 0;
+}
+
+.add-input-container > span,
+.add-input-container .add-input {
+    margin-left: -1px;
+}
+
+.add-input-container .add-input {
+    position: relative;
+    z-index: 1;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.add-input-container:focus-within > span {
+    color: #fff;
+    background-color: #163269;
+    border-color: #163269;
+}
+
+.add-input {
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    line-height: 24px;
+    font-size: 15px;
+    font-weight: 800;
+    font-family: inherit;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    color: #484747;
+    border: 2px solid #163269;
+    background: #fff;
+    transition: border 0.3s ease;
+}
+
+.add-input::placeholder {
+    color: black;
+}
+
+.add-input:focus {
+    outline: none;
+    border-color: #3898EC;
+}

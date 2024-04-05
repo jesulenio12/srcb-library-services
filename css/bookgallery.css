@@ -1,0 +1,409 @@
+.size-a-19 {
+    width: 100%;
+    height: 36px !important;
+}
+
+.box.box-primary {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
+.btn-gallery {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    background: #3db166;
+    width: 45%;
+    height: 30px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.bookButtons {
+    display: flex;
+    justify-content: space-around
+}
+
+.bookqr {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.book-image-card {
+    background: #ccc;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: block;
+    padding: 20px;
+}
+
+.column {
+    width: 100%;
+    height: auto;
+}
+
+.card-text {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+img.card-img-qr {
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+}
+
+.wrap-filter {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.filter-input-group {
+    display: flex;
+    align-items: flex-start;
+}
+
+.filter-input-box {
+    min-height: 35px;
+    max-width: 150px;
+    padding: 0 1rem;
+    color: #484747;
+    font-size: 15px;
+    font-weight: 800;
+    border: 2px solid #163269;
+    border-radius: 0 6px 6px 0;
+    background-color: transparent;
+}
+
+.filter-input-label {
+    min-height: 35px;
+    padding: 7px 1rem;
+    border: none;
+    border-radius: 6px 0 0 6px;
+    background-color: #163269;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+}
+
+.filter-input-box:focus, .filter-input-box:focus-visible {
+    border-color: #3898EC;
+    outline: none;
+}
+
+.filtersbtn{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: bolder;
+    background: #3db166;
+    width: 100%;
+    height:35px;
+    padding-top: 3px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.filtersbtn:hover, .filtersbtn:focus, .filtersbtn:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+} 
+
+.filter-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        width: -webkit-fill-available;
+    }
+
+.bookCopies {
+    max-width: 50%;
+    margin: 40px auto;
+}
+
+.line-container {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.line-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #163269;
+    color: white;
+    padding: 0 10px;
+    border-radius: 50px 
+}
+
+.connectedSortable {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.btnreq {
+    margin: 0 13px;
+}
+
+/* For mobile devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Your CSS styles for mobile devices go here */
+
+    .wrap-filter {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        overflow: scroll;
+    }
+
+    .filter-input-group {
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .filter-input-box {
+        min-height: 35px;
+        max-width: 78px;
+        padding: 0 1rem;
+        color: #484747;
+        font-size: 15px;
+        font-weight: 800;
+        border: 2px solid #163269;
+        border-radius: 0 6px 6px 0;
+        background-color: transparent;
+    }
+    
+    .filter-input-label {
+        min-height: 30px;
+        width: 78px;
+        padding: 9px 1rem;
+        border: none;
+        border-radius: 6px 0 0 6px;
+        background-color: #163269;
+        color: #fff;
+        font-size: 12px;
+        cursor: pointer;
+        transition: background-color .3s ease-in-out;
+    }
+    
+    .filter-input-box:focus, .filter-input-box:focus-visible {
+        border-color: #3898EC;
+        outline: none;
+    }
+    
+    .filtersbtn{
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+        border: none;
+        font-weight: bolder;
+        background: #3db166;
+        width: 100%;
+        height: 35px;
+        padding-top: 6px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        border-radius:5px;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    }
+    
+    .filtersbtn:hover, .filtersbtn:focus, .filtersbtn:active{
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    } 
+
+}
+
+/* For tablets */
+
+@media only screen and (min-width: 992px) {
+    /* Your CSS styles for tablets go here */
+    .wrap-filter {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        overflow: scroll;
+    }
+
+    .filter-input-group {
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .filter-input-box {
+        min-height: 35px;
+        max-width: 130px;
+        padding: 0 1rem;
+        color: #484747;
+        font-size: 15px;
+        font-weight: 800;
+        border: 2px solid #163269;
+        border-radius: 0 6px 6px 0;
+        background-color: transparent;
+    }
+    
+    .filter-input-label {
+        min-height: 30px;
+        padding: 7px 1rem;
+        border: none;
+        border-radius: 6px 0 0 6px;
+        background-color: #163269;
+        color: #fff;
+        font-size: 15px;
+        cursor: pointer;
+        transition: background-color .3s ease-in-out;
+    }
+    
+    .filter-input-box:focus, .filter-input-box:focus-visible {
+        border-color: #3898EC;
+        outline: none;
+    }
+    
+    .filtersbtn{
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+        border: none;
+        font-weight: bolder;
+        background: #3db166;
+        width: 100%;
+        height:35px;
+        padding-top: 7px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        border-radius:5px;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    }
+    
+    .filtersbtn:hover, .filtersbtn:focus, .filtersbtn:active{
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    } 
+}
+
+/* For larger screens (e.g., desktops) */
+
+@media only screen and (max-width: 767px) {
+    /* Your CSS styles for larger screens go here */
+    .wrap-filter {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .filter-input-group {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .filter-input-box {
+        min-height: 35px;
+        width: 100%;
+        padding: 0 1rem;
+        color: #484747;
+        font-size: 15px;
+        font-weight: 800;
+        border: 2px solid #163269;
+        border-radius: 0 6px 6px 0;
+        background-color: transparent;
+    }
+    
+    .filter-input-label {
+        min-height: 30px;
+        width: 78px;
+        padding: 7px 1rem;
+        border: none;
+        border-radius: 6px 0 0 6px;
+        background-color: #163269;
+        color: #fff;
+        font-size: 15px;
+        cursor: pointer;
+        transition: background-color .3s ease-in-out;
+    }
+    
+    .filter-input-box:focus, .filter-input-box:focus-visible {
+        border-color: #3898EC;
+        outline: none;
+    }
+    
+    .filtersbtn{
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+        border: none;
+        font-weight: bolder;
+        background: #3db166;
+        width: 32%;
+        height:35px;
+        padding-top: 7px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        border-radius:5px;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    }
+
+    .filter-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .filtersbtn:hover, .filtersbtn:focus, .filtersbtn:active{
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    } 
+}
